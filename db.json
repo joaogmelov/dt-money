@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de um site",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-02-10T00:15:05.720Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "price": 50,
+      "category": "Alimentacao",
+      "type": "outcome",
+      "createdAt": "2023-02-10T00:15:04.720Z"
+    },
+    {
+      "id": 3,
+      "description": "Cuzinho doce",
+      "price": 1500,
+      "category": "Alimentacao",
+      "type": "outcome",
+      "createdAt": "2023-02-10T00:15:02.720Z"
+    },
+    {
+      "description": "Caldo de cana",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-02-11T00:05:52.689Z",
+      "id": 4
+    },
+    {
+      "description": "Coxinha",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-02-11T00:12:46.340Z",
+      "id": 5
+    }
+  ]
+}
