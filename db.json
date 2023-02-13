@@ -17,14 +17,6 @@
       "createdAt": "2023-02-10T00:15:04.720Z"
     },
     {
-      "id": 3,
-      "description": "Cuzinho doce",
-      "price": 1500,
-      "category": "Alimentacao",
-      "type": "outcome",
-      "createdAt": "2023-02-10T00:15:02.720Z"
-    },
-    {
       "description": "Caldo de cana",
       "price": 4,
       "category": "Alimentação",
