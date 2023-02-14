@@ -27,6 +27,19 @@ export const TransactionsTable = styled.table`
       border-top-right-radius: 6px;
       border-bottom-right-radius: 6px;
     }
+
+    button {
+      line-height: 0;
+      background: none;
+      border: none;
+      color: ${(props) => props.theme['red-300']};
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.2s;
+        color: ${(props) => props.theme['red-500']};
+      }
+    }
   }
 `
 

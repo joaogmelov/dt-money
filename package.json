@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:server": "npx json-server db.json -w",
     "lint": "npx eslint src --ext .tsx,.ts",
     "lint:fix": "npx eslint src --ext .tsx,.ts --fix",
     "build": "tsc && vite build",

@@ -1,3 +1,4 @@
+import { Trash } from 'phosphor-react'
 import { useContextSelector } from 'use-context-selector'
 import { Header } from '../../components/Header'
 import { Summary } from '../../components/Summary'
@@ -13,6 +14,10 @@ import {
 export function Transactions() {
   const transactions = useContextSelector(TransactionsContext, (context) => {
     return context.transactions
+  })
+
+  const deleteComments = useContextSelector(TransactionsContext, (context) => {
+    return context.deleteTransaction
   })
 
   return (
@@ -37,6 +42,15 @@ export function Transactions() {
                   <td>{transaction.category}</td>
                   <td>
                     {dateFormatter.format(new Date(transaction.createdAt))}
+                  </td>
+                  <td>
+                    <button
+                      onClick={() => {
+                        deleteComments(transaction.id)
+                      }}
+                    >
+                      <Trash size={24} />
+                    </button>
                   </td>
                 </tr>
               )
